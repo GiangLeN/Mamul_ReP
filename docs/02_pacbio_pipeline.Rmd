@@ -1,0 +1,52 @@
+---
+layout: default
+title: "Pacbio pipeline"
+author: "Giang Le"
+version: 0.1.0
+date:
+#bibliography:
+nav_order: 1
+description: "Analyse Pacbio data"
+permalink: /
+output:
+    html_document:
+      toc: true
+      toc_float: true
+      toc_depth: 4
+      fig_caption: true
+      highlight: tango
+---
+
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+
+## 1. Introduction
+
+Pacbio short intro
+
+We will create a pipeline to analyse Pacbio data.
+
+Not all bioinformaticians have a powerful machine to play around with.
+For that region we will impose on a few restriction.
+This will force us to think of a way to solve the problem with what we have.
+Here I will show you some of the ways you can work around such restriction using Snakemake.
+The aim of these tutorial is for beginners
+
+## 
+
+## 4. Conclusion
+
+
+
+
+
+[Back to main page](https://gianglen.github.io/Zymo-Mock-sequencing/)
+
+### Todo:
+*   Header modify for SRA
+*   Download and extract sam file

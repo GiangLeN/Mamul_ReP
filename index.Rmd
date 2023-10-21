@@ -1,0 +1,64 @@
+---
+title: "Rhesus Macaque Reproducible Pipeline"
+author: "Giang Le"
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+version: 0.1.0
+output:
+   html_document:
+      toc: true # table of content true
+      toc_float: true
+      toc_depth: 3  # up to three depths of headings (specified by #, ## and ###)
+      fig_caption: true
+      highlight: tango  # specifies the syntax highlighting style
+      number_sections: true  ## if you want number sections at each table header
+      theme: spacelab
+---
+
+I hope to create a detail entry for beginner bioinformaticians.
+These tutorials will show you how to create pipeline to analyse public data.
+
+Multiple topics that will be touch upon such as public data, codes & scripts, computer and resources, time and storage.
+
+
+## Aims
+
+We want to process publicly available long read raw data from Rhesus Macaques.
+
+
+However, lets pretend we have limited computer power and storage.
+
+## Restriction (change this to warning)
+
+Not everyone has a high performance cluster or unlimited storage for this kind of run.
+The capacity I have is
+
+```
+24 cores
+128 GB ram
+4 TB HD
+```
+
+
+
+## Tutorials
+
+- Search and download public data. 
+- Dataset
+- Pacbio pipeline 
+- Nanopore pipeline
+- Results
+  - R markdown 
+
+Search for public data: SRA, ENA, Chinese data?
+Download these data
+
+Tutorial on how to process
+Checkpoint tutorial on splitting
+Reminder use threads for adaptor removal
+Filter reads below 5000 bp
+Check raw and filter reads
+Group file together ( Check point single return and multiple return)
+
+ 
+## Log
+
